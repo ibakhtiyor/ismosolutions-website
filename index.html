@@ -389,9 +389,10 @@ footer{border-top:1px solid var(--line);padding:50px 0 36px;color:var(--muted);f
           <label><span>Email</span><input name="email" type="email" autocomplete="email" required placeholder="you@company.com"></label>
         </div>
         <label><span>Project details</span><textarea name="message" rows="5" required placeholder="What are you building? Platforms, timeline, budget..."></textarea></label>
-        <input type="hidden" name="_subject" value="New project inquiry from ismosolutions.com">
-        <input type="hidden" name="_template" value="table">
-        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="hidden" name="access_key" value="dfe6542c-331c-4881-89ed-593775add7d0">
+        <input type="hidden" name="subject" value="New project inquiry from ismosolutions.com">
+        <input type="hidden" name="from_name" value="ismosolutions.com">
+        <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <button type="submit" class="btn btn-primary">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4 20-7z"/><path d="M22 2 11 13"/></svg>
           Send message
@@ -459,9 +460,9 @@ footer{border-top:1px solid var(--line);padding:50px 0 36px;color:var(--muted);f
       e.preventDefault();
       st.className='form-status';
       if(!f.checkValidity()){st.textContent='Please fill in your name, a valid email and a short message.';st.classList.add('err');return}
-      if(f._honey.value)return;
+      if(f.botcheck.checked)return;
       sb.disabled=true;st.textContent='Sending...';
-      fetch('https://formsubmit.co/ajax/hello@ismosolutions.com',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)})
+      fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)})
         .then(function(r){return r.json().then(function(d){if(!r.ok||String(d.success)!=='true')throw new Error(d.message||'Failed');})})
         .then(function(){f.reset();st.textContent="Thanks! Your message was sent. We'll reply within one business day.";st.classList.add('ok')})
         .catch(function(){st.innerHTML='Sorry, something went wrong. Please email us at <a class="mail-link" href="mailto:hello@ismosolutions.com">hello@ismosolutions.com</a>.';st.classList.add('err')})
