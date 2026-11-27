@@ -1,0 +1,271 @@
+# ismosolutions.com strings. "[key]" on its own line, the value below it. HTML is allowed.
+# Rules: no invented facts (clients, numbers, team, address), no country names,
+# no "bypass"/"unblock" wording, no protocol or competitor names.
+
+# --- Shared ---
+[ui.skip]
+Skip to content
+[ui.nav]
+Main
+[ui.nav_products]
+Products
+[ui.nav_about]
+About
+[ui.nav_contact]
+Contact
+[ui.nav_privacy]
+Privacy
+[ui.footer_nav]
+Footer
+[ui.footer_line]
+An independent software company. Makers of Krot VPN.
+[ui.og_alt]
+Ismo Solutions: we build software people trust.
+
+[band.h2]
+Have a project in mind?
+[band.p]
+Tell us what you're building. We read every message and usually reply within one business day.
+[band.cta]
+Get in touch
+
+# --- Home ---
+[home.title]
+Ismo Solutions: Full-Stack Mobile Software People Trust
+[home.desc]
+Ismo Solutions is an independent full-stack software company. We make Krot VPN and build mobile apps, backends and cloud infrastructure for clients.
+[home.h1]
+We build software people trust.
+[home.lead]
+Ismo Solutions is an independent software company. We make our own apps, starting with Krot VPN, and we build full-stack mobile products for clients: the app, the backend and the cloud, from the first sketch to the app stores.
+[home.cta_products]
+See our products
+[home.cta_contact]
+Get in touch
+[home.card_label]
+Our first product: Krot VPN
+[home.card_kicker]
+Our first product
+[home.card_line]
+Fast, private VPN for Android
+[home.products_kicker]
+Products
+[home.products_h2]
+What we make
+[home.krot_alt]
+Krot VPN app icon
+[home.krot_line]
+A fast, private VPN for Android. One tap and you're protected: no account, no sign-up, no activity logs.
+[home.iphone_soon]
+iPhone: coming soon
+[home.krot_visit]
+Visit krotvpn.org&nbsp;&rarr;
+[home.more]
+More in the works. We'll share them here when they're ready.
+[home.build_kicker]
+What we build
+[home.build_h2]
+Full-stack, for clients too.
+[home.build_p]
+The team that ships our own apps can build yours. We cover the full stack, so there are no hand-offs between agencies: the app, the backend and the infrastructure are designed to work together from day one.
+[home.s1_h]
+Mobile apps
+[home.s1_p]
+Native iOS and Android apps, or one cross-platform codebase for both stores. Swift, Kotlin, Flutter, React Native.
+[home.s2_h]
+Backend &amp; APIs
+[home.s2_p]
+Secure, scalable servers, databases and APIs: auth, payments and real-time sync.
+[home.s3_h]
+Product design
+[home.s3_p]
+Wireframes, prototypes and polished interfaces you can click through before any code is written.
+[home.s4_h]
+Launch &amp; support
+[home.s4_p]
+App Store and Google Play release, CI/CD, monitoring and long-term maintenance.
+[home.how_kicker]
+How we work
+[home.how_h2]
+A clear path from idea to launch.
+[home.how_p]
+Transparent milestones, regular demos and no surprises. You always know what is being built and why.
+[home.st1_h]
+Discover
+[home.st1_p]
+We dig into your goals, users and market to define scope, features and a realistic roadmap.
+[home.st2_h]
+Design
+[home.st2_p]
+Wireframes, interactive prototypes and a visual design you can click through before any code.
+[home.st3_h]
+Build
+[home.st3_p]
+Agile sprints across app, backend and cloud, with working builds delivered for you to test.
+[home.st4_h]
+Launch &amp; grow
+[home.st4_p]
+Store submission, monitoring and continuous improvement driven by real user feedback.
+
+# --- About ---
+[about.title]
+About Ismo Solutions
+[about.desc]
+Who we are and how we work: an independent software company that puts privacy first and stays small and focused.
+[about.kicker]
+About
+[about.h1]
+Small team. Careful software.
+[about.lead]
+Ismo Solutions builds and publishes its own apps, and builds full-stack mobile software for clients: app, backend and cloud.
+[about.who_h2]
+Who we are
+[about.who_p1]
+We're an independent software company. Our first product is <a href="https://krotvpn.org/">Krot VPN</a>, a fast, private VPN for Android, with more apps in the works.
+[about.who_p2]
+Alongside our own products we take on client work: mobile apps, the backends behind them and the infrastructure they run on. You talk directly to the people building your product.
+[about.pr_kicker]
+Principles
+[about.pr_h2]
+What we hold ourselves to.
+[about.p1_h]
+Privacy first
+[about.p1_p]
+We collect as little as we can. Krot VPN works without an account, and this website has no cookies, analytics or trackers.
+[about.p2_h]
+Small and focused
+[about.p2_p]
+We'd rather do a few things well. Fewer projects at a time means more care for each one.
+[about.p3_h]
+Direct communication
+[about.p3_p]
+No middlemen and no surprises. Regular demos, plain answers and honest timelines.
+[about.p4_h]
+Built to last
+[about.p4_p]
+Security at every layer, clean architecture and long-term maintenance after launch.
+[about.co_h2]
+Company details
+[about.co_name]
+Legal name
+[about.co_reg]
+Registration
+[about.co_addr]
+Address
+[about.co_email]
+Email
+[about.co_tbd]
+To be added
+
+# --- Contact ---
+[contact.title]
+Contact Ismo Solutions
+[contact.desc]
+Tell us about your project or ask a question. Write to hello@ismosolutions.com or use the form; we usually reply within one business day.
+[contact.kicker]
+Contact
+[contact.h1]
+Get in touch.
+[contact.lead]
+Tell us what you're building: platforms, timeline and anything else that helps. We usually reply within one business day.
+[contact.form_h]
+Send a message
+[contact.mail_h]
+Prefer email?
+[contact.mail_p]
+Write to us directly. Messages reach the same inbox as the form.
+[contact.krot_h]
+Using Krot VPN?
+[contact.krot_p]
+For help with the app, see the <a href="https://krotvpn.org/help/">Krot VPN help pages</a>.
+
+[form.subject]
+New project inquiry from ismosolutions.com
+[form.hp]
+Leave this box unchecked
+[form.name]
+Name
+[form.email]
+Email
+[form.message]
+Message
+[form.placeholder]
+What are you building? Platforms, timeline, budget...
+[form.send]
+Send message
+[form.note]
+The form is delivered to our inbox by Web3Forms. See our <a href="/privacy">privacy note</a>.
+
+# --- Privacy (DRAFT: new legal text, waiting for the owner's approval) ---
+[privacy.title]
+Privacy Note: Ismo Solutions Website
+[privacy.desc]
+How the ismosolutions.com website handles your data: no cookies, no analytics, and form messages reach our email through Web3Forms.
+[privacy.kicker]
+Privacy
+[privacy.h1]
+Privacy note
+[privacy.lead]
+This note covers the ismosolutions.com website. It's short because the site collects very little.
+[privacy.h_short]
+In short
+[privacy.short1]
+No cookies. The site doesn't set any.
+[privacy.short2]
+No analytics, trackers, ads or third-party fonts and scripts.
+[privacy.short3]
+We only see what you choose to send us through the contact form or by email.
+[privacy.h_form]
+The contact form
+[privacy.form_p1]
+When you send the form, your name, email address and message go to Web3Forms, a form service that delivers them to our email inbox. Web3Forms handles them under its own privacy policy.
+[privacy.form_p2]
+We use your message only to reply to you. We don't add you to a mailing list and we don't sell or share your details. Ask us any time to delete your messages.
+[privacy.h_email]
+Email
+[privacy.email_p]
+Mail sent to an ismosolutions.com address is passed on by our domain's email forwarding service to the inbox we read.
+[privacy.h_host]
+Hosting
+[privacy.host_p]
+The site is hosted on GitHub Pages. Like most web hosts, GitHub may log technical data such as visitors' IP addresses for security, under GitHub's privacy statement. We don't receive or use those logs.
+[privacy.h_apps]
+Our apps
+[privacy.apps_p]
+Each app has its own privacy policy. For Krot VPN, see <a href="https://krotvpn.org/privacy">krotvpn.org/privacy</a>.
+[privacy.h_contact]
+Questions
+[privacy.contact_p]
+Write to {{x:email}}.
+[privacy.updated]
+Last updated: 27 November 2026.
+
+# --- Thanks (after the form) ---
+[thanks.title]
+Message Sent: Ismo Solutions
+[thanks.desc]
+Thanks for your message. We usually reply within one business day.
+[thanks.kicker]
+Message sent
+[thanks.h1]
+Thanks, we've got your message.
+[thanks.lead]
+We usually reply within one business day. If it's urgent, write to {{x:email}}.
+[thanks.home]
+Back to the home page
+[thanks.krot]
+Visit krotvpn.org
+
+# --- 404 ---
+[404.title]
+Page Not Found: Ismo Solutions
+[404.desc]
+This page doesn't exist.
+[404.h1]
+Page not found.
+[404.lead]
+The page you're looking for doesn't exist or has moved.
+[404.home]
+Go to the home page
+[404.contact]
+Contact us

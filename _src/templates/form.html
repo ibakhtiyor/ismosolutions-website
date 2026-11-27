@@ -1,0 +1,14 @@
+<form class="form" method="post" action="%%ACTION%%" accept-charset="utf-8">
+<input type="hidden" name="access_key" value="%%KEY%%">
+<input type="hidden" name="subject" value="{{form.subject}}">
+<input type="hidden" name="from_name" value="ismosolutions.com">
+<input type="hidden" name="redirect" value="%%REDIRECT%%">
+<div class="hp"><label>{{form.hp}} <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></label></div>
+<div class="row2">
+<label for="f-name">{{form.name}}<input id="f-name" name="name" type="text" autocomplete="name" required maxlength="120"></label>
+<label for="f-email">{{form.email}}<input id="f-email" name="email" type="email" autocomplete="email" required maxlength="200"></label>
+</div>
+<label for="f-msg">{{form.message}}<textarea id="f-msg" name="message" rows="6" required maxlength="5000" placeholder="{{form.placeholder}}"></textarea></label>
+<button class="btn" type="submit">{{form.send}}</button>
+<p class="small">{{form.note}}</p>
+</form>

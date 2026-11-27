@@ -1,0 +1,17 @@
+404.html
+about.html
+apple-touch-icon.png
+contact.html
+favicon-32.png
+favicon.svg
+icon-192.png
+index.html
+krot.svg
+logo-512.png
+logo.svg
+og.png
+privacy.html
+robots.txt
+site.webmanifest
+sitemap.xml
+thanks.html
